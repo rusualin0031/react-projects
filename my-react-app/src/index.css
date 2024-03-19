@@ -8,4 +8,9 @@
   display: inline-block;
 }
 
-
+.card .card-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.57);
+}
