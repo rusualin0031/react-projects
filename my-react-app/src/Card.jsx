@@ -2,7 +2,9 @@
 
 function Card() {
     return(
-        <h1>jhjh</h1>
+        <div className="card">
+            <h1>Card</h1>
+        </div>
     );
 }
 
