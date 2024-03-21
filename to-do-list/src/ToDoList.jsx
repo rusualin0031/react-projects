@@ -10,7 +10,11 @@ function ToDoList() {
     }
 
     function addTask() {
-        
+
+    }
+
+    function deleteTask(index) {
+
     }
 
     return(<></>);
