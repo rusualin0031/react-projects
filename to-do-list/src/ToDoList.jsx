@@ -5,6 +5,10 @@ function ToDoList() {
     const [tasks, setTask] = useState([]);
     const [newTask, setNewTask] = useState("");
 
+    function handleInputChange(event) {
+        
+    }
+
     return(<></>);
 }
 
