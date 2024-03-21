@@ -6,6 +6,7 @@ function ToDoList() {
     const [newTask, setNewTask] = useState("");
 
     function handleInputChange(event) {
+        setNewTask(event.target.value);
 
     }
 
@@ -32,7 +33,11 @@ function ToDoList() {
             </div>
 
             <div>
-                <input type="text" />
+                <input type="text" 
+                    placeholder="Enter a task" 
+                    value={newTask} 
+                    onRateChange={handleInputChange} 
+                />
             </div>
         </>
     );
