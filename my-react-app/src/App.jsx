@@ -6,9 +6,9 @@ function App() {
   return(
     <>
       <div className='container'>
-      <Header />
-      <Card />
-      <Footer />
+        <Header />
+        <Card />
+        <Footer />
       </div>
     </>
   );

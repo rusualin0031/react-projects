@@ -22,9 +22,15 @@
 }
 
 .card .card-title {
-  font-family: Arial, Helvetica, sans-serif;
+  
   margin: 0;
   color: hsl(0, 0%, 20%);
+}
+
+.card .card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(0, 0%, 40%);
+  
 }
 
 .menu {
