@@ -38,6 +38,9 @@ function ToDoList() {
                     value={newTask} 
                     onRateChange={handleInputChange} 
                 />
+                <button className="add-buton">
+                    Add Task
+                </button>
             </div>
         </>
     );
