@@ -17,6 +17,10 @@ function ToDoList() {
 
     }
 
+    function moveTaskUp(index) {
+
+    }
+
     return(<></>);
 }
 
